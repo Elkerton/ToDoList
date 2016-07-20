@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+button:active{
+  box-shadow: 1px 1px rgba(79, 123, 183, 0.58);
+}
+
+button:hover{
+  background-color: rgba(79, 123, 183, 0.58);
+  transition-duration: 0.9s;
+}
+
+button {
+  border: solid;
+    border-width: 1px;
+    background-color: rgba(223, 234, 249, 0.58);
+    padding: 1%;
+    border-radius: 6px;
+    border-color: #a7c3cc;
+    font-size: 1rem;
+    font-family: sans-serif;
+  	cursor : pointer;
+  	outline:0;
+}
+
+input{
+  	padding: 1%;
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #6fbae0;
+    outline : 0;
+   font-size : 1rem;
+  	margin-left: 3%;
+}
+
+p{
+  font-size : 1.5rem;
+}
+
+h1{
+  	font-family: monospace;
+    border-bottom: solid;
+    margin-bottom: 4%;
+    border-width: 1px;
+    text-align: center;
+    color: rgba(16, 74, 136, 0.71);
+}
